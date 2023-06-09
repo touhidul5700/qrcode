@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCODE SCANNER</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- google font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Open+Sans&family=Oswald:wght@200;300;400;500&family=Poppins:wght@400;900&family=Raleway:wght@100;300&family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@100&family=Sofia+Sans+Condensed:wght@400;500;600;700&family=Titillium+Web:wght@200&display=swap"
+        rel="stylesheet">
+    <!--  -->
+</head>
+
+<body>
+
+    <section class="hidden">
+        <h1>QRCODE SCANNER</h1>
+        <video id="video" autoplay></video>
+
+        <!-- switch -->
+        <div class="switch-scanner " style="margin-top: 20px;">
+            <a href="../index.html"><button onclick="toggleElements()">Scanner/Generator</button></a>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- qrcode.min.js -->
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+
+    <!-- qr code scanner pack -->
+    <script src="https://rawgit.com/sitepoint-editors/jsqrcode/master/src/qr_packed.js"></script>
+
+    <!-- main.js -->
+    <script src="../js/main.js"></script>
+
+    <!-- scanner.js -->
+    <script src="../js/scanner.js"></script>
+</body>
+
+</html>

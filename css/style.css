@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #818181;
+    font-family: 'Poppins', sans-serif !important;
+
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    background: #00eeff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+
+}
+
+h2 {
+    font-size: 18px;
+}
+
+form {
+    width: 80%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    font-size: 18px;
+    color: rgb(0, 32, 8);
+    border-radius: 20px;
+    border: 0;
+    border-bottom: 3px solid #ffc800;
+    padding-left: 30px;
+}
+
+input:focus {
+    border: 0;
+    border-bottom: 3px solid yellow;
+}
+
+.qrcode-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.generate-btn {
+    padding: 10px 20px;
+    background-color: #ffc800;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.switch-scanner button{
+    background: #1500ff00;
+    padding: 10px;
+    border: 0;
+    font-weight: 600;
+    border-radius: 10px;
+    color: rgba(255, 0, 0, 0.51);
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+@media(max-width:767px){
+    section{
+        width: 90%;
+    } 
+    input{
+        width: 90%;
+        padding: 10px;
+    }
+    video{
+        width: 300px;
+    }
+}
